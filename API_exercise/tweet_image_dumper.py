@@ -8,10 +8,10 @@ import urllib
 import os
 
 #Twitter API credentials
-consumer_key = " "
-consumer_secret = " "
-access_key = " "
-access_secret = " "
+consumer_key = "gwMkbWfPcZE9TAXekRDEpwNIm"
+consumer_secret = "e07vq6fsJSbbFRpgOboh0B3yokdUGnzpu2bXjE7nVcdZM26wGP"
+access_key = "2683176107-HNvFrkYZgYlGFzsP0BTUejTQxONTuIODD5jliAt"
+access_secret = "QJ05rOrGVvOIB5vLaHST1UbVbuu5OpIznI8KOPKXuBAgL"
 
 
 def get_all_tweets(screen_name):
@@ -27,7 +27,7 @@ def get_all_tweets(screen_name):
         
         #directory = os.path.dirname("/screen_name")
         
-        os.makedirs("pic")
+        os.makedirs("pic1")
 
         #make initial request for most recent tweets (200 is the maximum allowed count)
         new_tweets = api.user_timeline(screen_name = screen_name,count=1)
@@ -67,7 +67,7 @@ def get_all_tweets(screen_name):
                         #got media_url - means add it to the output
                         #outtweets.append([tweet.id_str, tweet.created_at, tweet.text.encode("utf-8"), tweet.entities['media'][0]['media_url']])
                         outtweets.append([tweet.entities['media'][0]['media_url']])
-                        fullfilename = os.path.join('pic', tweet.id_str+'.jpg')
+                        fullfilename = os.path.join('pic1', tweet.id_str+'.jpg')
                         urllib.urlretrieve(tweet.entities['media'][0]['media_url'], fullfilename)
 
         #write the csv  
@@ -82,4 +82,4 @@ def get_all_tweets(screen_name):
 
 if __name__ == '__main__':
         #pass in the username of the account you want to download
-        get_all_tweets("april_hao")
+        get_all_tweets("charlieputh")
