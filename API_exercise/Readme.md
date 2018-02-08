@@ -9,7 +9,7 @@ google-cloud-vision
 ```
 
 ### Step
-1. Download the "twipic.py" file. Fill in the Twitter API credentials.
+1. Download the ["twipic.py"](https://github.com/XintongHao/EC500_C1/blob/master/API_exercise/twipic.py) file. Fill in the Twitter API credentials.
 2. Run the file and enter the Twitter user's name in the console.
 3. Check the directory. You will see a csv file with all the picture's url in it, and a new directory with all the pictures and a video in it.
 4. 
