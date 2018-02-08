@@ -1,12 +1,18 @@
 # Twitter API 
-Python file [Preview](https://github.com/XintongHao/EC500_C1/blob/master/API_exercise/tweet_image_dumper.py)
+main file [Preview](https://github.com/XintongHao/EC500_C1/blob/master/API_exercise/twipic.py)
+
+### Requirement
+```
+tweepy
+ffmpy
+google-cloud-vision
+```
+
 ### Step
-1. Learn from Tweepy Library. 
-2. Find the module which meets our requirement: Authorization module, Timeline module, Entities module (eg. entities['media']）
-3. Access to a point user's twitter and download all the picture in [pic directory](https://github.com/XintongHao/EC500_C1/tree/master/API_exercise/pic1) Example User : charlieputh
-4. Store all the url of all the pictures in a [csv file](https://github.com/XintongHao/EC500_C1/blob/master/API_exercise/charlieputh_tweets.csv).
-5. Use ffmpeg get video per image in the pic directory. [commandline] (https://github.com/XintongHao/EC500_C1/blob/master/API_exercise/commandline.txt)
-6. concatenate all the videos together [view](https://github.com/XintongHao/EC500_C1/blob/master/API_exercise/MP4/output.mp4)
+1. Download the "twipic.py" file. Fill in the Twitter API credentials.
+2. Run the file and enter the Twitter user's name in the console.
+3. Check the directory. You will see a csv file with all the picture's url in it, and a new directory with all the pictures and a video in it.
+4. 
 
 ## Google Vision API
 Python file [Preview](https://github.com/XintongHao/EC500_C1/blob/master/API_exercise/ImageFeature.py)
