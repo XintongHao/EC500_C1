@@ -1,5 +1,5 @@
 # Twitter API 
-main file [Preview](https://github.com/XintongHao/EC500_C1/blob/master/API_exercise/twipic.py)
+main file [Preview](https://github.com/XintongHao/EC500_C1/blob/master/API_exercise/twipic_main.py)
 
 ### Requirement
 ```
