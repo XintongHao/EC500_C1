@@ -27,11 +27,12 @@ Python file [Preview](https://github.com/XintongHao/EC500_C1/blob/master/API_exe
 3. Get authentation in terminal. Run gcloud to enter into the account and select the project
 
 
-### Error Conditions
+## Error Conditions
 1. Twitter user's screen name doesn't exist & This user doesn't have any tweets: return 0 and show error content.
-2. FFmepg doesn't work: No content of " Create a video". And try to run the commandline in the terminal manually.
+2. FFmeg doesn't work: No content of " Create a video". And try to run the commandline in the terminal manually.
 ```
 cd [directory]
 ffmpeg -framerate .5 -pattern_type glob -i '*.jpg' out.mp4
 ```
+What's more, I noticed that Wins and Mac have different commandlines for ffmpeg in their terminal, so th commandline may not work in Wins. And please make sure you have the font "sans-serif.ttf" in your PC or the PIL won't work.
 3. Google Vision API doesn't response: I have this problems in my own PC, and I have not solved it yet. It seems that the only way to solve this error is to use another computer to test... :( .......
