@@ -35,4 +35,5 @@ cd [directory]
 ffmpeg -framerate .5 -pattern_type glob -i '*.jpg' out.mp4
 ```
 What's more, I noticed that Wins and Mac have different commandlines for ffmpeg in their terminal, so th commandline may not work in Wins. And please make sure you have the font "sans-serif.ttf" in your PC or the PIL won't work.
+
 3. Google Vision API doesn't response: I have this problems in my own PC, and I have not solved it yet. It seems that the only way to solve this error is to use another computer to test... :( .......
