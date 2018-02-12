@@ -16,10 +16,10 @@ import subprocess
 #from google.auth import app_engine
 
 #Twitter API credentials
-consumer_key = "gwMkbWfPcZE9TAXekRDEpwNIm"
-consumer_secret = "e07vq6fsJSbbFRpgOboh0B3yokdUGnzpu2bXjE7nVcdZM26wGP"
-access_key = "2683176107-HNvFrkYZgYlGFzsP0BTUejTQxONTuIODD5jliAt"
-access_secret = "QJ05rOrGVvOIB5vLaHST1UbVbuu5OpIznI8KOPKXuBAgL"
+consumer_key = "xxx"
+consumer_secret = "xxx"
+access_key = "xxx"
+access_secret = "xxx"
 
 
 
