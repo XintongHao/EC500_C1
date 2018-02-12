@@ -29,5 +29,9 @@ Python file [Preview](https://github.com/XintongHao/EC500_C1/blob/master/API_exe
 
 ### Error Conditions
 1. Twitter user's screen name doesn't exist & This user doesn't have any tweets: return 0 and show error content.
-2. FFmepg doesn't work: No content of " Create a video"
+2. FFmepg doesn't work: No content of " Create a video". And try to run the commandline in the terminal manually.
+```
+cd [directory]
+ffmpeg -framerate .5 -pattern_type glob -i '*.jpg' out.mp4
+```
 3. Google Vision API doesn't response: I have this problems in my own PC, and I have not solved it yet. It seems that the only way to solve this error is to use another computer to test... :( .......
